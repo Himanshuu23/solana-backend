@@ -17,21 +17,6 @@ It includes routes for:
 -  Build raw instructions for token and SOL transfers
 -  Sign and verify messages with Solana keypairs
 
----
-
-##  Folder Structure
-├── src/
-│ ├── main.rs # Entry point, sets up Axum server and routes
-│ ├── routes/
-│ │ ├── keypair.rs # /keypair route logic
-│ │ ├── token.rs # /token/create and /token/mint logic
-│ │ ├── message.rs # /message/sign and /message/verify logic
-│ │ ├── send.rs # /send/sol and /send/token logic
-│ └── utils/
-│ └── response.rs # Common success/error response helpers
-├── .env # Environment variables (optional)
-├── Cargo.toml # Rust dependencies and package info
-└── README.md # This file
 
 ---
 
