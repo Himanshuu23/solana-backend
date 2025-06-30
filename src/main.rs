@@ -34,7 +34,7 @@ async fn main() {
         .route("/send/token", post(send_token));
 
     let addr = SocketAddr::from(([0, 0, 0, 0], 3000));
-    println!("✅ Server running at http://{}", addr);
+    println!("server running on http://{}", addr);
     let listener = tokio::net::TcpListener::bind(addr).await.unwrap();
     axum::serve(listener, app).await.unwrap();
 }
@@ -306,9 +306,7 @@ async fn send_token(
         Err(_) => return error_response(StatusCode::BAD_REQUEST, "Invalid owner address"),
     };
 
-    // In a real implementation, you would need to derive the source account from owner+mint
-    // This is a simplified version for demonstration
-    let source = owner; // This should be the token account in reality
+    let source = owner;
 
     let instr = transfer(
         &spl_token_id(),
