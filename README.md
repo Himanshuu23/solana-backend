@@ -38,25 +38,6 @@ Endpoint	Method	Description
 /send/sol	POST	Create a SOL transfer instruction
 /send/token	POST	Create a SPL token transfer
 
-## 🖼️ Sample Screenshots
+## 🖼️ Sample Screenshot
 
-### 🔐 Keypair Generation
-![Keypair](./screenshots/1.png)
-
-### 🪙 Token Creation
-![Token Create](./screenshots/2.png)
-
-### 🪙 Token Mint
-![Token Mint](./screenshots/3.png)
-
-### ✍️ Message Sign
-![Message Sign](./screenshots/4.png)
-
-### ✅ Message Verify
-![Message Verify](./screenshots/5.png)
-
-### 💸 Send SOL
-![Send SOL](./screenshots/6.png)
-
-### 🔁 Send Token
-![Send Token](./screenshots/7.png)
+![Token](./screenshots/1.jpg)
