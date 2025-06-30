@@ -40,4 +40,4 @@ Endpoint	Method	Description
 
 ## 🖼️ Sample Screenshot
 
-![Token](./screenshots/1.jpg)
+![Token](./screenshots/1.png)
